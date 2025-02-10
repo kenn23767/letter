@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>To my favorite person</strong>
+                        <pre>
+ انت نعمة احمد الله عليها و انا فرحانة حيت
+ عرفت واحد بحالك و انا مفتاخرة بيك بزاف 
+                   .و الله يخليك ليا
+و ايلا كنت قدرت نعطيك شي حاجة فهاد دنيا
+غنعطيك القدرة ديال انك تشوف راسك كيف 
+كنشوفك انا ديك ساعة غتعرف بلي شحال
+   كنقدرك و شحال انت سبسيال بالنسبة
+                     .ليا
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
