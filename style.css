@@ -113,3 +113,8 @@
     transform: rotate(90deg);
     transition-delay: 0.4s;
   }
+  @media (max-width: 768px) {
+    body{
+      background-color: rgb(44, 57, 48);
+    }
+  }
